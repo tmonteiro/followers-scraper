@@ -1,0 +1,19 @@
+{
+  "name": "followers-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm index.js"
+  },
+  "author": "Tiago Monteiro <monteiro.tg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.2.18"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
