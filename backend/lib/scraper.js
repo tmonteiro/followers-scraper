@@ -21,4 +21,16 @@ async function getInstagramFollowers(html) {
   );
 }
 
-export { getHtml, getTwitterFollowers, getInstagramFollowers };
+async function getTwitterCount() {
+  const html = await getHtml('https://twitter.com/kofdadepressao');
+  const count = await getTwitterFollowers(html);
+  return count;
+}
+
+async function getInstagramCount() {
+  const html = await getHtml('https://www.instagram.com/kofdadepressao/');
+  const count = await getInstagramFollowers(html);
+  return count;
+}
+
+export { getTwitterCount, getInstagramCount };
