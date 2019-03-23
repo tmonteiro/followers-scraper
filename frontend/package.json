@@ -1,0 +1,20 @@
+{
+  "name": "followers-scraper-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Tiago Monteiro <monteiro.tg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^1.30.1",
+    "next": "^8.0.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
