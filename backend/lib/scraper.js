@@ -57,4 +57,8 @@ async function runCron() {
   console.log('Done.');
 }
 
-export { getTwitterCount, getInstagramCount, runCron };
+function getDbData() {
+  return db.value();
+}
+
+export { getTwitterCount, getInstagramCount, runCron, getDbData };
